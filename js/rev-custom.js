@@ -20,10 +20,10 @@ function revinit_revslider131() {
                 sliderLayout: "fullwidth",
                 visibilityLevels: "1240,1024,778,480",
                 gridwidth: "1880,1024,778,480",
-                gridheight: "950,780,650,450",
+				gridheight: "760,624,520,360",
                 perspective: 600,
                 perspectiveType: "global",
-                editorheight: "950,780,650,450",
+				editorheight: "760,624,520,360",
                 responsiveLevels: "1240,1024,778,480",
                 progressBar: { disableProgressBar: true },
                 navigation: {
