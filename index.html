@@ -31,12 +31,32 @@
 <link href="css/responsive.css" rel="stylesheet"/>
 <style>
 @media (min-width: 992px) {
+  #pq-header .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  #pq-header .navbar-brand {
+    margin-right: auto;
+  }
+
   #pq-header .navbar .navbar-collapse {
-    flex-grow: 0;
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+
+  #pq-header #pq-menu-contain {
+    display: flex;
+    align-items: center;
   }
 
   #pq-header #pq-main-menu {
+    margin-left: 0;
     margin-right: 30px;
+  }
+
+  #pq-header .pq-button {
+    flex: 0 0 auto;
   }
 }
 </style>
@@ -79,7 +99,7 @@
 </a>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <div class="pq-menu-contain" id="pq-menu-contain">
-<ul class="navbar-nav ml-auto" id="pq-main-menu">
+<ul class="navbar-nav" id="pq-main-menu">
 <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
 <li class="menu-item"><a href="whatwedo.html">What We Do</a></li>
 <li class="menu-item"><a href="whyhudsonhelm.html">Why Hudson Helm?</a></li>
@@ -88,7 +108,6 @@
 </ul>
 </div>
 </div>
-
 <a class="pq-button" href="contact-us.html">
 <div class="pq-button-block">
 <span class="pq-button-text">Start Here</span>
